@@ -1,0 +1,9 @@
+.barra-lateral{
+  background-color: lightblue;
+  width:35vw;
+  height: 100vh;
+  display:flex;
+  justify-content:flex-start;
+  margin-left:0;
+  
+}

@@ -1,0 +1,7 @@
+.students{
+  background-color:red;
+  width:65vw;
+  height: 100%;
+  display:flex;
+  justify-content:center;
+}
