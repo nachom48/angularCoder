@@ -1,0 +1,12 @@
+<h1>Ng For</h1>
+<ul>
+  <li *ngFor="let alumno of listaAlumnos">{{ alumno | lowercase }} </li>
+</ul>
+
+
+<button (click)="borrarElemento()" *ngIf="listaAlumnos.length>0;else noHayMas">Borrar Elemento</button>
+<ng-template #noHayMas>
+ <p>
+  No hay mas elementos para borrar
+ </p>
+</ng-template>
